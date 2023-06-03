@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap");
+/* link above is used to import the Sansita and Swashed typefaces */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  /* aligns the text to the center */
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  /* sets the display property of the 'body' element to 'flex', enabling flexible box layout */
+  height: 80vh;
+  /* sets the height of the 'body' element to 80% of the viewport height('vh') */
+  align-items: center;
+  /* aligns child elements of 'body' element vertically at the center */
+  justify-content: center;
+  /* aligns child elements of the 'body' element horizontally at the center */
+  flex-direction: column;
+  /* sets direction of the flex container to a vertical column (child elements within 'body' will be stacked vertically) */
+  padding-top: 50px;
+  background-image: url("https://media.istockphoto.com/id/943292690/photo/financial-and-technical-data-analysis-graph-showing-stock-market-trends.jpg?s=612x612&w=0&k=20&c=pPx6ScJIqxo60fAExwJRIzYNQ_Jd-l-L78yUIJEzfAY=");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 3rem;
+}
+
+.convert,
+.exchange {
+  font-family: "Sansita Swashed", cursive;
+  font-size: 25px;
+  color: #ffffff;
+  padding-right: 20px;
+}
+
+input {
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+  margin: 5px auto;
+  outline: 0;
+}
+
+#original-currency-amount {
+  padding-left: 50px;
+}
+
+button {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #00539cff;
+  font-family: "Sansita Swashed", cursive;
+}
+
+select {
+  width: 80px;
+  height: 35px;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 10px;
+  outline: 0;
+}
+
+#exchange {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 20px;
+  outline: 0;
+  color: #00539cff;
+  border: 4px solid #ffd662ff;
+}
+
+#exchange:active,
+button:active {
+  transform: scale(0.9);
+}
+
+#output-text {
+  display: none;
+  padding: 20px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+span {
+  color: #ffd662ff;
+  font-size: 35px;
+}
+
+#exchange-rate {
+  cursor: default;
+}
+
+footer {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+
+a {
+  color: #ffffff;
+  bottom: 0;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+#output-text span {
+  color: #ffffff;
+  font-size: 30px;
+  padding: 15px;
+}
